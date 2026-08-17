@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For You — August 19 ✨</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADING / CINEMATIC INTRO
+===================================================== -->
+
+<div id="intro">
+
+    <canvas id="starCanvas"></canvas>
+
+    <div class="intro-glow"></div>
+
+    <div class="intro-content">
+
+        <p class="intro-overline">
+            19 • 08 • 2026
+        </p>
+
+        <h1>
+            This is not<br>
+            an ordinary<br>
+            birthday website.
+        </h1>
+
+        <p class="intro-subtitle">
+            I made something a little different for you.
+        </p>
+
+        <button id="enterButton" class="gold-button">
+            <span>Open it</span>
+            <i>✦</i>
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MAIN WEBSITE
+===================================================== -->
+
+<main id="mainContent">
+
+
+    <!-- HEART CANVAS -->
+
+    <canvas id="heartCanvas"></canvas>
+
+
+    <!-- =================================================
+         HERO
+    ================================================= -->
+
+    <section class="hero">
+
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+
+        <div class="hero-content">
+
+            <p class="eyebrow reveal">
+                For someone who deserves a beautiful day
+            </p>
+
+            <div class="name-container">
+
+                <span id="nameText"></span>
+
+            </div>
+
+            <p class="hero-small reveal">
+                your 19th chapter begins here
+            </p>
+
+            <div class="big-number">
+                <span>1</span>
+                <span>9</span>
+            </div>
+
+            <p class="hero-date">
+                AUGUST 19 · 2026
+            </p>
+
+            <a href="#countdown" class="scroll-hint">
+                <span>scroll to begin</span>
+                <b>↓</b>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         COUNTDOWN
+    ================================================= -->
+
+    <section id="countdown" class="section countdown-section">
+
+        <div class="section-label">
+            THE MOMENT
+        </div>
+
+        <h2>
+            Until your day begins...
+        </h2>
+
+        <div id="countdownTimer" class="countdown-grid">
+
+            <div class="count-box glass">
+                <strong id="days">00</strong>
+                <span>DAYS</span>
+            </div>
+
+            <div class="count-box glass">
+                <strong id="hours">00</strong>
+                <span>HOURS</span>
+            </div>
+
+            <div class="count-box glass">
+                <strong id="minutes">00</strong>
+                <span>MINUTES</span>
+            </div>
+
+            <div class="count-box glass">
+                <strong id="seconds">00</strong>
+                <span>SECONDS</span>
+            </div>
+
+        </div>
+
+        <div id="birthdayMessage" class="birthday-now hidden">
+
+            <span>IT'S FINALLY HERE</span>
+
+            <h3>
+                Happy 19th Birthday ✨
+            </h3>
+
+            <p>
+                Today is yours.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         SEALED LETTER
+    ================================================= -->
+
+    <section class="letter-section section">
+
+        <div class="section-label">
+            SOMETHING FOR YOU
+        </div>
+
+        <h2>
+            I left you a little letter.
+        </h2>
+
+        <p class="section-description">
+            It doesn't need an occasion.<br>
+            But today felt like the right one.
+        </p>
+
+
+        <div class="letter-wrapper">
+
+            <div id="letter" class="letter">
+
+                <div class="envelope">
+
+                    <div class="envelope-back"></div>
+
+                    <div class="letter-paper">
+
+                        <div class="paper-content">
+
+                            <span class="paper-small">
+                                August 19, 2026
+                            </span>
+
+                            <h3>
+                                Hey you...
+                            </h3>
+
+                            <p>
+                                Happy 19th birthday. ❤️
+                            </p>
+
+                            <p>
+                                I hope this year gives you more
+                                reasons to smile than you can count.
+                                More unexpected happiness,
+                                more beautiful memories,
+                                and more moments where you realize
+                                how far you've come.
+                            </p>
+
+                            <p>
+                                We've shared a part of each other's
+                                story, and regardless of where life
+                                takes us, some chapters are worth
+                                remembering.
+                            </p>
+
+                            <p>
+                                So today, just be happy.
+                                Enjoy your day.
+                                You deserve that.
+                            </p>
+
+                            <div class="letter-signature">
+                                — from someone who remembers
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="wax-seal">
+                        ✦
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button id="openLetter" class="text-button">
+                <span>Open the letter</span>
+                <i>→</i>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         MEMORIES
+    ================================================= -->
+
+    <section class="memories section">
+
+        <div class="section-label">
+            THE MEMORIES
+        </div>
+
+        <h2>
+            Some moments stay.
+        </h2>
+
+        <p class="section-description">
+            Not because they happened yesterday,<br>
+            but because they meant something.
+        </p>
+
+
+        <div class="polaroid-gallery">
+
+            <div class="polaroid polaroid-one">
+
+                <div class="photo">
+                    <img src="assets/photo1.jpg" alt="Memory">
+                </div>
+
+                <div class="caption">
+                    <strong>01</strong>
+                    <span>A moment worth keeping.</span>
+                </div>
+
+            </div>
+
+
+            <div class="polaroid polaroid-two">
+
+                <div class="photo">
+                    <img src="assets/photo2.jpg" alt="Memory">
+                </div>
+
+                <div class="caption">
+                    <strong>02</strong>
+                    <span>Somewhere in between.</span>
+                </div>
+
+            </div>
+
+
+            <div class="polaroid polaroid-three">
+
+                <div class="photo">
+                    <img src="assets/photo3.jpg" alt="Memory">
+                </div>
+
+                <div class="caption">
+                    <strong>03</strong>
+                    <span>One for the memory box.</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         TIMELINE
+    ================================================= -->
+
+    <section class="timeline-section section">
+
+        <div class="section-label">
+            THE STORY
+        </div>
+
+        <h2>
+            A few chapters.
+        </h2>
+
+
+        <div class="timeline">
+
+            <div class="timeline-line"></div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    01
+                </div>
+
+                <div class="timeline-card glass">
+
+                    <span>
+                        CHAPTER ONE
+                    </span>
+
+                    <h3>
+                        When it all started
+                    </h3>
+
+                    <p>
+                        Every story has a beginning.
+                        Some beginnings seem ordinary,
+                        until you look back and realize
+                        how much they changed.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reverse">
+
+                <div class="timeline-dot">
+                    02
+                </div>
+
+                <div class="timeline-card glass">
+
+                    <span>
+                        CHAPTER TWO
+                    </span>
+
+                    <h3>
+                        The little things
+                    </h3>
+
+                    <p>
+                        The random conversations,
+                        stupid jokes, unexpected moments
+                        and all those tiny things that somehow
+                        became memories.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    03
+                </div>
+
+                <div class="timeline-card glass">
+
+                    <span>
+                        CHAPTER THREE
+                    </span>
+
+                    <h3>
+                        What remains
+                    </h3>
+
+                    <p>
+                        Not every story has to stay the same
+                        forever to have been beautiful.
+                        Some chapters simply become part
+                        of who we are.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         THINGS I REMEMBER
+    ================================================= -->
+
+    <section class="remember-section section">
+
+        <div class="section-label">
+            LITTLE THINGS
+        </div>
+
+        <h2>
+            Things I'll always remember.
+        </h2>
+
+
+        <div class="memory-list">
+
+            <div class="remember-card glass">
+                <span>01</span>
+                <p>
+                    The way you could make an ordinary
+                    conversation feel like something special.
+                </p>
+            </div>
+
+            <div class="remember-card glass">
+                <span>02</span>
+                <p>
+                    The random moments that weren't supposed
+                    to become memories — but did.
+                </p>
+            </div>
+
+            <div class="remember-card glass">
+                <span>03</span>
+                <p>
+                    The laughs that happened at exactly
+                    the wrong time.
+                </p>
+            </div>
+
+            <div class="remember-card glass">
+                <span>04</span>
+                <p>
+                    The version of us that existed for
+                    that particular chapter of our lives.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         GIFT BOX
+    ================================================= -->
+
+    <section class="gift-section section">
+
+        <div class="section-label">
+            ONE LAST THING
+        </div>
+
+        <h2>
+            There's something here for you.
+        </h2>
+
+        <p class="section-description">
+            You might want to open this one.
+        </p>
+
+
+        <div class="gift-container">
+
+            <div id="giftBox" class="gift-box">
+
+                <div class="gift-lid"></div>
+
+                <div class="gift-body">
+
+                    <div class="gift-ribbon vertical"></div>
+                    <div class="gift-ribbon horizontal"></div>
+
+                </div>
+
+                <div class="gift-glow"></div>
+
+            </div>
+
+        </div>
+
+
+        <p id="giftText" class="gift-text">
+            Tap the gift 🎁
+        </p>
+
+    </section>
+
+
+    <!-- =================================================
+         FINAL
+    ================================================= -->
+
+    <section class="final-section">
+
+        <div class="final-glow"></div>
+
+        <div class="final-content">
+
+            <p class="eyebrow">
+                AND FINALLY...
+            </p>
+
+            <h2>
+                Make a wish.
+            </h2>
+
+            <p>
+                Close your eyes for a moment.
+                Think of something you really want.
+                And when you're ready...
+            </p>
+
+            <button id="wishButton" class="gold-button">
+                Make your wish ✨
+            </button>
+
+            <div id="finalMessage" class="final-message hidden">
+
+                <span>WISH SENT ✦</span>
+
+                <h3>
+                    May 19 be good to you.
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio id="music" loop>
+    <source src="assets/birthday.mp3" type="audio/mpeg">
+</audio>
+
+
+<button id="musicButton" class="music-control">
+
+    <span class="music-icon">♫</span>
+
+    <span class="music-label">
+        MUSIC
+    </span>
+
+</button>
+
+
+<!-- CONFETTI CANVAS -->
+
+<canvas id="confettiCanvas"></canvas>
+
+
+<script src="script.js"></script>
+
+</body>
+  </html>
